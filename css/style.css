@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  text-align:center;
+}
+.block{
+  background-image: url(../img/fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 15px;
+}
+.logo {
+    width: 80px;  
+
+}
+.perviy a{
+  text-decoration: none;
+}
+.nasv{
+  font-size: 55px;
+  font-weight: bolder;
+  background-color: #ffa500;
+  border-radius: 10px;
+  position:relative;
+  top: 20px; 
+  height: 100px;
+}
+.perviy{
+  padding-top: 50px;
+}
+.tekst_sverhu_kartinki{
+  position: relative;
+
+}
+.image {
+ display: grid;
+ grid-template-columns: max-content max-content max-content;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.perviy span {
+  display: grid;
+  justify-items: center;
+  font-size: 40px;
+}
+
+.perviy span img {
+  width: 200px;
+}
+
+.vtoriy span img{
+  width: 50px;
+}
+
+.image p{
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: #808080;
+  border-radius: 10px;
+
+}

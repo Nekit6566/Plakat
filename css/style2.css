@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+}
+
+.fon{
+  background-image: url(../img/fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 15px;
+}
+
+.text p{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  background-color: #ffff;
+  border-radius: 90px;
+  padding: 10px 20px;
+}
+
+.kart img{
+  width: 600px;
+  display:block;
+  margin:auto;
+  padding-top: 60px;
+}
+
+.strela{
+  width: 100px;
+  padding-left: 20px;
+}

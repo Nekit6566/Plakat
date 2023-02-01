@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+}
+
+.fon{
+  background-image: url(../img/fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 15px;
+}
+
+
+.header span{
+  display: grid;
+  justify-items: center;
+  font-size: 30px;
+}
+
+.header span img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.header p{
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+.content{
+  display: flex;
+}
+
+.foto img{
+
+  padding-left: 100px;
+  object-fit: cover;
+  width: 450px;
+  height: 450px;
+  
+
+}
+.txt{
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: #ffff;
+  border-radius: 90px;
+  padding: 10px 20px;
+}
+
+.txt p{
+  text-indent: 30px;
+}
+
+.strela{
+  padding-top: 80px;
+  width: 100px;
+  padding-left: 20px;
+}

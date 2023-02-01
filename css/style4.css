@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+
+.fon{
+  background-image: url(../img/fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 15px;
+}
+.text{
+
+  background-color: #ffff;
+  border-radius: 70px;
+}
+.text p{
+  font-weight: bolder;
+  font-size: 35px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+li {
+  list-style-type: none;
+  list-style-image: url(../img/plus.png);
+  margin-left: 50px;
+  font-size: 25px;
+
+}
+.kart img{
+  width: 500px;
+  display:block;
+  margin:auto;
+  padding-top: 100px;
+}
+
+.strela{
+  width: 120px;
+  padding-left: 20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Плакат</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+<div class="block">
+    <marquee direction="right" height="100px" scrollamount="20"    ><span class="nasv">Программист - путь в будующее</span></marquee>
+      <br>
+   <div class="perviy">
+          <div class="image animate__animated animate__bounce">
+            <a href="index2.html">
+                <span>
+                    <img src="img/1.png" alt="">
+                    </picture>
+                        <p>Кто мы</p>
+                    </span>
+                </a>
+            <a href="index3.html">
+            <span>
+                <picture>
+                    <img src="img/2.png" alt="">
+                </picture>
+                    <p>Актуальность</p>
+                </span>
+            </a>
+            <a href="index4.html">
+            <span>
+                <picture>
+                    <img src="img/3.png" alt="">
+                </picture>
+                <p>Плюсы</p>
+                </span>
+            </a>
+          </div>
+    </div>
+
+    <div class="perviy">
+          <div class="image animate__animated animate__bounce">
+            <a href="index5.html">
+            <span>
+                <picture>
+                    <img src="img/4.png" alt="">
+                </picture>
+                    <p>Минусы</p>
+                </span>
+            </a>
+            <a href="index6.html">
+            <span>
+                <picture>
+                    <img src="img/5.png" alt="">
+                </picture>
+                    <p>Заработная плата</p>
+                </span>
+            </a>
+            <a href="index7.html">
+            <span>
+                <picture>
+                    <img src="img/6.png" alt="">
+                </picture>
+                <p>Обо мне</p>
+                </span>
+            </a>
+          </div>
+    </div>
+</div>
+<script src='js/script.js'></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(document).snowfall({image :"img/computer.png", minSize: 10, maxSize:20});
+    });
+</script>
+</body>
+</html>
